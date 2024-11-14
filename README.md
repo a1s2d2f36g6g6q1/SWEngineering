@@ -102,4 +102,4 @@ COPYRIGHT© DAOL Investment & Securities Co., Ltd. ALL RIGHTS RESERVED
 추가 사항 ->
 네이버 크롤링 코드 / 트레이딩뷰 API / 다올 API
 
-asd
+requirements.txt 수정해야함...

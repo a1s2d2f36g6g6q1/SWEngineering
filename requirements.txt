@@ -1,2 +1,11 @@
-Django==4.2.16
-djangorestframework==3.x.x
+pip~=24.3.1
+wheel~=0.41.2
+pillow~=11.0.0
+Django~=5.1.3
+asgiref~=3.8.1
+sqlparse~=0.5.1
+Jinja2~=3.1.4
+numpy~=2.1.3
+requests~=2.32.3
+setuptools~=68.2.0
+pytz~=2024.2

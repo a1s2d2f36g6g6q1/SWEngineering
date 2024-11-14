@@ -29,6 +29,9 @@ Windows :
 macOS / Linux :
 1. python3 -m venv venv
 2. source venv/bin/activate
+
+---
+(참고 : 가상 환경을 종료하려면 deactivate 를 입력)
 ```
 
 4. 명령어 앞에 (venv) 가 표시되는지 확인합니다
@@ -38,11 +41,16 @@ macOS / Linux :
 pip install -r requirements.txt
 ```
 
-6. 설치가 완료되면, 다음 명령어를 실행하여 서버를 마이그레이션 한 후 실행합니다.
+6. 설치가 완료되면, SWEngineering 폴더로 이동하고
+7. 다음 명령어를 실행하여 서버를 마이그레이션 한 후 실행합니다.
 
 ```
+cd SWEngineering
 python manage.py migrate
 python manage.py runserver
+
+---
+(참고 : 서버를 종료하려면 Ctrl + C 를 입력)
 ```
 
 ## 4. Dependencies
@@ -93,3 +101,5 @@ COPYRIGHT© DAOL Investment & Securities Co., Ltd. ALL RIGHTS RESERVED
 
 추가 사항 ->
 네이버 크롤링 코드 / 트레이딩뷰 API / 다올 API
+
+asd

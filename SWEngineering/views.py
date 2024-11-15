@@ -6,8 +6,8 @@ def index(request):
 def stock(request):
     return render(request, 'stock.html')
 
-def predict(request):
-    return render(request, 'prediction.html')  # stockapp 관련 페이지
+def prediction(request):
+    return render(request, 'prediction.html')
 
 def beginner(request):
     return render(request, 'beginner.html')

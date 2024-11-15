@@ -16,7 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from .views import beginner, index, predict, stock
+from .views import beginner, index, prediction, stock
 from . import views
 
 
@@ -25,4 +25,5 @@ urlpatterns = [
     path("", views.index, name="index"),
     path("beginner.html", beginner, name="beginner"), # 입문자용 정보 페이지
     path("stock.html", stock, name="stock"), # 주식 차트 페이지
+    path("prediction.html", prediction, name="prediction"), # 주식 예측 페이지
 ]

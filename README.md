@@ -52,10 +52,10 @@ python manage.py runserver
 
 ## 4. Dependencies
 
-IDE : PyCharm
-Language : Python
-Framework : Django
-HTML
+- IDE : PyCharm
+- Language : Python
+- Framework : Django
+- HTML
 
 ## 5. How to use
 

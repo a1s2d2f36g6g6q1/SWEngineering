@@ -1,4 +1,9 @@
-pip~=24.3.1
 django
 requests
 beautifulsoup4
+pandas
+tradingview-ta
+flask
+scikit-learn
+statsmodels
+pmdarima

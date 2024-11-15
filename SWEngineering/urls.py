@@ -25,5 +25,4 @@ urlpatterns = [
     path("", views.index, name="index"),
     path("beginner.html", beginner, name="beginner"), # 입문자용 정보 페이지
     path("stock.html", stock, name="stock"), # 주식 차트 페이지
-    path("predict.html", predict, name="predict"), # 주식 예측 페이지
 ]

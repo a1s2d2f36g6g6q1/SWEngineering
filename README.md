@@ -41,11 +41,8 @@ macOS / Linux :
 pip install -r requirements.txt
 ```
 
-6. 설치가 완료되면, SWEngineering 폴더로 이동하고
-7. 다음 명령어를 실행하여 서버를 마이그레이션 한 후 실행합니다.
-
+6. 다음 명령어를 실행하여 서버를 마이그레이션 한 후 실행합니다.
 ```
-cd SWEngineering
 python manage.py migrate
 python manage.py runserver
 

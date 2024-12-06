@@ -11,3 +11,6 @@ def prediction(request):
 
 def beginner(request):
     return render(request, 'beginner.html')
+
+def copyrights(request):
+    return render(request, 'copyrights.html')

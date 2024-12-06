@@ -1,4 +1,5 @@
 django
+pandas
 requests
 beautifulsoup4
 pandas
@@ -7,3 +8,4 @@ flask
 scikit-learn
 statsmodels
 pmdarima
+matplotlib

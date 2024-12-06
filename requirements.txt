@@ -2,10 +2,10 @@ django
 pandas
 requests
 beautifulsoup4
-pandas
 tradingview-ta
 flask
 scikit-learn
 statsmodels
-pmdarima
 matplotlib
+
+# numpy, pmdarima

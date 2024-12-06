@@ -39,14 +39,18 @@ macOS / Linux :
 
 ```
 pip install -r requirements.txt
-(pip install --upgrade pip 으로 pip 업그레이드 가능)
+(pip install --upgrade pip 으로 pip 업그레이드 후, 다시 requirements.txt 설치)
 ```
 
 6. 다음 명령어를 실행하여 서버를 마이그레이션 한 후 실행합니다.
 ```
+[Win]
 python manage.py migrate
 python manage.py runserver
 
+[macOS / Linux]
+python3 manage.py migrate
+python3 manage.py runserver
 ---
 (참고 : 서버를 종료하려면 Ctrl + C 를 입력)
 ```

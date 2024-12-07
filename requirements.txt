@@ -7,5 +7,4 @@ flask
 scikit-learn
 statsmodels
 matplotlib
-
-# numpy, pmdarima
+numpy

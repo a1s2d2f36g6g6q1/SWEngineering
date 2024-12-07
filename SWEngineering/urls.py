@@ -15,7 +15,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 from .views import beginner, index, prediction, stock, copyrights
 from . import views
 
@@ -25,6 +25,6 @@ urlpatterns = [
     path("", views.index, name="index"),
     path("beginner.html", beginner, name="beginner"), # 입문자용 정보 페이지
     path("stock.html", stock, name="stock"), # 주식 차트 페이지
-    path("prediction.html", prediction, name="prediction"), # 주식 예측 페이지
+    path("", include("stockapp.urls")), # 주식 예측 페이지
     path("copyrights.html", copyrights, name="copyrights"), # 저작권 페이지
 ]
